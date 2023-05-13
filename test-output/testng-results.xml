@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-09T13:20:57 IST" name="Suite" finished-at="2023-05-09T13:21:17 IST" duration-ms="20584">
+    <groups>
+    </groups>
+    <test started-at="2023-05-09T13:20:57 IST" name="Stand alone" finished-at="2023-05-09T13:21:13 IST" duration-ms="16181">
+      <class name="TestSel.saucedemo.Standalone">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:TestSel.saucedemo.Standalone@2d52216b]" started-at="2023-05-09T13:20:57 IST" name="launchApp" finished-at="2023-05-09T13:21:02 IST" duration-ms="5790" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="submitOrders()[pri:0, instance:TestSel.saucedemo.Standalone@2d52216b]" started-at="2023-05-09T13:21:02 IST" name="submitOrders" finished-at="2023-05-09T13:21:13 IST" duration-ms="10223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrders -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestSel.saucedemo.Standalone@2d52216b]" started-at="2023-05-09T13:21:13 IST" name="tearDown" finished-at="2023-05-09T13:21:13 IST" duration-ms="104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestSel.saucedemo.Standalone -->
+    </test> <!-- Stand alone -->
+    <test started-at="2023-05-09T13:21:13 IST" name="Check error" finished-at="2023-05-09T13:21:17 IST" duration-ms="4353">
+      <class name="TestSel.saucedemo.ErrorValidation">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:TestSel.saucedemo.ErrorValidation@5149d738]" started-at="2023-05-09T13:21:13 IST" name="launchApp" finished-at="2023-05-09T13:21:17 IST" duration-ms="3912" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="errormsg()[pri:0, instance:TestSel.saucedemo.ErrorValidation@5149d738]" started-at="2023-05-09T13:21:17 IST" name="errormsg" finished-at="2023-05-09T13:21:17 IST" duration-ms="321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- errormsg -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestSel.saucedemo.ErrorValidation@5149d738]" started-at="2023-05-09T13:21:17 IST" name="tearDown" finished-at="2023-05-09T13:21:17 IST" duration-ms="118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestSel.saucedemo.ErrorValidation -->
+    </test> <!-- Check error -->
+  </suite> <!-- Suite -->
+</testng-results>
